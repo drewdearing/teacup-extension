@@ -1,0 +1,15 @@
+.fa5-icon {
+   font-family: 'Font Awesome 5 Free' !important;
+   font-weight: 900 !important;
+}
+
+.match--wrapper-background.-live {
+	fill: #f00 !important;
+	fill-opacity: 1;
+}
+
+.match--wrapper-background.-livequeue {
+	fill: #ffe600 !important;
+	fill-opacity: 1;
+}
+

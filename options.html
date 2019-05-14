@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            min-width: 420px;
+            overflow-x: hidden;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+        }
+        input, textarea {
+            width: 420px;
+        }
+        input#save {
+            font-weight: bold; width: auto;
+        }
+        p#error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h3>Challonge API Key</h3>
+    <p id="error"></p>
+    <p id="message">Please supply your Challonge API credentials to use this service. Challonge requires these fields to retrieve and modify their data. This data is saved locally and will not be shared with any party other than Challonge.</p>
+    <form id="setkey">
+        <p></p>
+        <p>
+            <label for="user">Challonge Username</label><br />
+            <input type="text" id="user" name="user" size="50" value="" />
+        </p>
+        <p>
+            <label for="key">API Key</label><br />
+            <input type="password" id="key" name="key" size="50" value="" />
+        </p>
+        <p><a href="https://challonge.com/settings/developer">Locate your API Key here.</a></p>
+        <p>
+            <input id="save" type="submit" value="Save API Key Locally" />
+            <span id="status-display"></span>
+        </p>
+    </form>
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="options.js"></script>
+</body>
+</html>
