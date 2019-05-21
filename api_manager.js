@@ -184,7 +184,7 @@ class APIManager {
     }
 
     static getAPIURL(api_path){
-        let url = "https://teacup-challonge.herokuapp.com"
+        let url = "https://teacup-gg.herokuapp.com"
         //let url = "http://localhost:5000"
         return url+api_path
     }
