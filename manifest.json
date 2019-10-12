@@ -1,6 +1,6 @@
 {
-	"name": "teaCup",
-	"version": "1.0",
+	"name": "Teacup.gg",
+	"version": "0.0.0.2",
 	"description": "Send relevent match data from Challonge directly to your stream client for efficient tournaments.",
 	"background": {
 		"scripts": ["background.js"],
